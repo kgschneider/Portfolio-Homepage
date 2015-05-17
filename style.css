@@ -31,36 +31,49 @@ body, html  {
 	margin-right: 2%;
 }
 
-.portfolio {
-	background: #464646;
-	height: 54%;
-	text-align: center;
-	color: #EBEBEB;
-	font-family: 'Martel', serif;
-	font-size: 2em;
-}
-
-.project, .project-info {
-	border: 1px solid white;
-	height: 5%;
-	width: 5%;
-	padding: 5%;
-}
-
-.project-info {
-	width: 8%;
-}
-
-table {
-	padding-left: 10%;
-	padding-right: 10%;
-}
-
 .about {
+	background: #D3D3D3;
+	height: 46%;
+	text-align: center;
+	font-family: 'Martel', serif;
+	font-size: 2em;
+}
+
+.about strong {
+	color: #EBEBEB;
+	font-size: 1.5em;
+}
+
+.about img {
+
+	height: 20%;
+	width: 20%;
+}
+
+#resp {
+	height: 30%;
+	width: 30%;
+}
+
+.portfolio {
+	height: 30%;
 	text-align: center;
 	font-family: 'Martel', serif;
 }
-.about strong {
-	color: #464646;
-	font-size: 2em;
+
+
+.footer {
+	background: #464646;
+	width: 100%;
+	height: 14%;
+	color: #EBEBEB;
+	text-align: center;
+	font-family: 'Martel', serif;
+}
+
+.project td {
+	border: solid black 1px;
+	padding: 2%;
+	height: 25%;
+	width: 25%;
 }
