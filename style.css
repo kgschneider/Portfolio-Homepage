@@ -56,13 +56,15 @@ body, html  {
 }
 
 .portfolio {
-	height: 30%;
+	height: 56%;
 	text-align: center;
 	font-family: 'Martel', serif;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 
-.footer {
+.contact {
 	background: #464646;
 	width: 100%;
 	height: 14%;
@@ -73,7 +75,18 @@ body, html  {
 
 .project td {
 	border: solid black 1px;
-	padding: 2%;
+	padding: 5%;
 	height: 25%;
 	width: 25%;
 }
+
+.projecttable {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#example1, #example2, #example3 {
+	background-color: #282929;
+	color: #D3D3D3;
+}
+

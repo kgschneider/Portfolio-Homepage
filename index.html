@@ -5,6 +5,8 @@
 	<link rel="stylesheet" href="style.css">
 	<link href='http://fonts.googleapis.com/css?family=Martel:400,900' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Alex+Brush' rel='stylesheet' type='text/css'>
+	<script src="jquery-2.1.3.min.js"></script>
+	<script src="app.js"></script>
 </head>
 
 <body>
@@ -20,11 +22,11 @@
 	<div class="intro"><strong>Kevin Schneider</strong><br>Front-end Developer based in Brooklyn, NY.</div>
 
 
-	<div class="about"><br>
+	<div class="about">
 
 	<table>
 		<tr>
-			<td><img src="img/responsive-design.png"></td>
+			<td id="resp-design"><img src="img/responsive-design.png"></td>
 			<td><img id="resp" src="img/design-icon.png"></td>
 			<td><img src="img/ux-design.png"></td>
 		</tr>
@@ -40,13 +42,19 @@
 
 	<div class="portfolio"><h1>Portfolio</h1>
  
-	<table width="100%" height="100%">
+	<table width="80%" height="60%" class="projecttable">
 
 		<tr class="project">
-			<td></td>
-			<td></td>
-			<td></td>
+			<td id="example1"><strong>Portfolio Sample 1</strong><br>Portfolio sample description here.</td>
+			<td id="example2"><strong>Portfolio Sample 2</strong><br>Portfolio sample description here.</td>
+			<td id="example3"><strong>Portfolio Sample 3</strong><br>Portfolio sample description here.</td>
 		</tr>
+	</table>
+	</div>
+
+	<div class="contact"><h1>Contact</h1>
+
+
 	</div>
 
 </body>
