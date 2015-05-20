@@ -11,7 +11,7 @@ $(document).ready(function() {
 				'background-color': '#87C8EE',
 				'color':'black',
 				'transition-duration': '.5s',
-				'-webkit-transition-duration': '.5s'.
+				'-webkit-transition-duration': '.5s',
 			    '-moz-transition-duration': '.5ms',
 			    '-o-transition-duration': '.5ms',
 			    '-ms-transition-duration': '.5ms'	
