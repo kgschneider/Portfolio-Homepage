@@ -1,8 +1,8 @@
 $(document).ready(function() {
 	
 	$('#example1').mouseenter(function() {
-		$('#example1').html('Lorem ipsum dolor sit amet, decore voluptua inimicus duo eu, has eius scribentur ex, pri malorum perfecto eu. His ei modo iisque sententiae, magna justo hendrerit ut ius.');
-		$('#example1').css('background-color', '#359AFF');
+		$('#example1').html('Lorem ipsum dolor sit amet, decore voluptua inimicus duo eu.');
+		$('#example1').css('background-color', '#87C8EE');
 		$('#example1').css('color', 'black');
 		$('#example1').css('transition-duration', '.5s');
 	})
@@ -14,10 +14,10 @@ $(document).ready(function() {
 	})
 
 	$('#example2').mouseenter(function() {
-		$('#example2').html('Lorem ipsum dolor sit amet, decore voluptua inimicus duo eu, has eius scribentur ex, pri malorum perfecto eu. His ei modo iisque sententiae, magna justo hendrerit ut ius.');
-		$('#example2').css('background-color', '#359AFF');
+		$('#example2').html('Lorem ipsum dolor sit amet, decore voluptua inimicus duo eu.');
+		$('#example2').css('background-color', '#87C8EE');
 		$('#example2').css('color', 'black');
-		$('#example2').css('transition-duration', '.5');
+		$('#example2').css('transition-duration', '.5s');
 	})
 
 	$('#example2').mouseleave(function() {
@@ -28,8 +28,8 @@ $(document).ready(function() {
 	})
 
 	$('#example3').mouseenter(function() {
-		$('#example3').html('Lorem ipsum dolor sit amet, decore voluptua inimicus duo eu, has eius scribentur ex, pri malorum perfecto eu. His ei modo iisque sententiae, magna justo hendrerit ut ius.');
-		$('#example3').css('background-color', '#359AFF');
+		$('#example3').html('Lorem ipsum dolor sit amet, decore voluptua inimicus duo eu..');
+		$('#example3').css('background-color', '#87C8EE');
 		$('#example3').css('color', 'black');
 		$('#example3').css('transition-duration', '.5s');
 
