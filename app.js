@@ -1,16 +1,29 @@
 $(document).ready(function() {
 	
 	$('#example1').mouseenter(function() {
-		$('#example1').html('Lorem ipsum dolor sit amet, decore voluptua inimicus duo eu.');
-		$('#example1').css('background-color', '#87C8EE');
-		$('#example1').css('color', 'black');
-		$('#example1').css('transition-duration', '.5s');
+		var example1 = $('#example1');
+		var example1Element = example1.get(0);
+
+		example1Element._html = example1.html();
+		example1
+			.load('templates/example1.html')
+			.css({
+				'background-color': '#87C8EE',
+				'color':'black',
+				'transition-duration': '.5s'
+			});
 	})
 
 	$('#example1').mouseleave(function() {
-		$('#example1').html('<strong>' + 'Portfolio Sample 1' + '</strong>' + '<br>' + 'Portfolio sample description here.');
-		$('#example1').css('background-color', '#282929');
-		$('#example1').css('color', '#D3D3D3');
+		var example1 = $('#example1');
+		var example1Element = example1.get(0);
+		
+		example1
+			.html(example1Element._html)
+			.css({
+				'background-color': '#282929',
+				'color': '#D3D3D3'
+			});
 	})
 
 	$('#example2').mouseenter(function() {
