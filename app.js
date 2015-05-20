@@ -10,14 +10,18 @@ $(document).ready(function() {
 			.css({
 				'background-color': '#87C8EE',
 				'color':'black',
-				'transition-duration': '.5s'
+				'transition-duration': '.5s',
+				'-webkit-transition-duration': '.5s'.
+			    '-moz-transition-duration': '.5ms',
+			    '-o-transition-duration': '.5ms',
+			    '-ms-transition-duration': '.5ms'	
 			});
 	})
 
 	$('#example1').mouseleave(function() {
 		var example1 = $('#example1');
 		var example1Element = example1.get(0);
-		
+
 		example1
 			.html(example1Element._html)
 			.css({
